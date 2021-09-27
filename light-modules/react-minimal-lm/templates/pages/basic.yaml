@@ -3,7 +3,7 @@ title: 'React: Basic (Extended)'
 dialog: spa-lm:pages/basic
 
 # Local Development
-templateScript: https://localhost:3000
+templateScript: http://localhost:3000
 
 renderType: spaExtended
 # renderType: spa
