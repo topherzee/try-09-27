@@ -1,6 +1,12 @@
+# WHAT IT TRIES: https://author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/static/js/bundle.js
+
+# CORRECT URL: http://c9d6-77-189-234-52.ngrok.io/static/js/bundle.js
+
+
 class: info.magnolia.virtualuri.mapping.RegexpVirtualUriMapping
 # fromUri: ^/mobify/(.*)
-fromUri: ^/author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/(.*)
+#fromUri: ^/author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/(.*)
+fromUri: ^/react-minimal/(.*)
 
 # Production
 # toUri: redirect:PWA_URL/mobify/$1
@@ -10,6 +16,3 @@ fromUri: ^/author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/(.*)
 toUri: redirect:http://c9d6-77-189-234-52.ngrok.io/$1
 
 
-# WHAT IT TRIES: https://author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/static/js/bundle.js
-
-# CORRECT URL: http://c9d6-77-189-234-52.ngrok.io/static/js/bundle.js
