@@ -1,0 +1,15 @@
+class: info.magnolia.virtualuri.mapping.RegexpVirtualUriMapping
+# fromUri: ^/mobify/(.*)
+fromUri: ^/author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/(.*)
+
+# Production
+# toUri: redirect:PWA_URL/mobify/$1
+
+# Local Development
+#toUri: redirect:http://localhost:3000/mobify/$1
+toUri: redirect:http://c9d6-77-189-234-52.ngrok.io/$1
+
+
+# WHAT IT TRIES: https://author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/static/js/bundle.js
+
+# CORRECT URL: http://c9d6-77-189-234-52.ngrok.io/static/js/bundle.js
