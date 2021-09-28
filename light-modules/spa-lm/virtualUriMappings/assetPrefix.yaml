@@ -1,18 +1,35 @@
-# WHAT IT TRIES: https://author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/static/js/bundle.js
+# WHAT PAGEEDITOR TRIES: https://author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/static/js/bundle.js
 
-# CORRECT URL: http://c9d6-77-189-234-52.ngrok.io/static/js/bundle.js
-
+# ACTUAL 'LOCAL' URL: https://c9d6-77-189-234-52.ngrok.io/static/js/bundle.js
 
 class: info.magnolia.virtualuri.mapping.RegexpVirtualUriMapping
+fromUri: ^/static/(.*)
+
+# Local Development
+# toUri: redirect:https://-BROKEN-c9d6-77-189-234-52.ngrok.io/static/$1
+
+# Production
+toUri: redirect:https://hello-saas-topher-try-09-27.netlify.app/static/$1
+
+
 # fromUri: ^/mobify/(.*)
-#fromUri: ^/author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/(.*)
-fromUri: ^/react-minimal/(.*)
+# fromUri: ^author-o9jhhtvxblvyzlmb.beta.de.magnolia-cloud.com/(.*)
+# fromUri: ^/react-minimal/(.*)
 
 # Production
 # toUri: redirect:PWA_URL/mobify/$1
 
 # Local Development
-#toUri: redirect:http://localhost:3000/mobify/$1
-toUri: redirect:http://c9d6-77-189-234-52.ngrok.io/$1
+# toUri: redirect:http://localhost:3000/mobify/$1
+# toUri: redirect:http://c9d6-77-189-234-52.ngrok.io/react-minimal/$1
+# toUri: redirect:http://c9d6-77-189-234-52.ngrok.io/$1
+
+
+
+
+# Production
+# fromUri: ^/static/(.*)
+# toUri: redirect:https://c9d6-77-189-234-52.ngrok.io/static/$1
+# toUri: redirect:https://hello-saas-topher-try-09-27.netlify.app/static/$1
 
 

@@ -3,7 +3,10 @@ title: 'React: Basic (Extended)'
 dialog: spa-lm:pages/basic
 
 # Local Development
-templateScript: http://c9d6-77-189-234-52.ngrok.io/
+# templateScript: http://c9d6-77-189-234-52.ngrok.io/
+
+# Production
+templateScript: https://hello-saas-topher-try-09-27.netlify.app
 
 renderType: spaExtended
 # renderType: spa
