@@ -1,15 +1,18 @@
-title: 'React: Basic (Extended)'
-# url: http://localhost:3000
+title: 'React: Basic (Normal)'
+
 dialog: spa-lm:pages/basic
 
 # Local Development
 # templateScript: http://c9d6-77-189-234-52.ngrok.io/
 
 # Production
-templateScript: https://hello-saas-topher-try-09-27.netlify.app
+# templateScript: https://hello-saas-topher-try-09-27.netlify.app
 
-renderType: spaExtended
-# renderType: spa
+#renderType: spaExtended
+
+renderType: spa
+url: http://localhost:3000
+
 class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
 
 areas:
